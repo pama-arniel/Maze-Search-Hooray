@@ -5,14 +5,14 @@
 
 '''
 def main():
-    filename = "bigSearch.lay.txt"
-    #heuristics = "manhattan"
-    heuristics="straightline"
-    maze = readmaze(filename)
+filename = "bigSearch.lay.txt"
+#heuristics = "manhattan"
+heuristics="straightline"
+maze = readmaze(filename)
 
-    print("The Maze:")
-    maze.display(spaces=1)
-    solve(maze, heuristics)
+print("The Maze:")
+maze.display(spaces=1)
+solve(maze, heuristics)
 '''
 
 2. TO RUN THE PROGRAM, SIMPLY ALTER THE THE "filename" and
@@ -27,22 +27,22 @@ NOTE: typing other string values would throw an Exception
 
 '''
 def calcHeuristics(heuristics, maze, square, goal):
-    .
-    .
-    .
-    if(heuristics=="manhattan"):
-        return (dx + dy)
-    elif(heuristics=="straightline"):
-        return max(dx, dy)
-    else:
-        raise Exception("Incorrect heuristics")
-    return 0
+.
+.
+.
+if(heuristics=="manhattan"):
+    return (dx + dy)
+elif(heuristics=="straightline"):
+    return max(dx, dy)
+else:
+    raise Exception("Incorrect heuristics")
+return 0
 '''
 
 4. TO RUN, YOU CAN ALSO SIMPLY COMMENT OUT ONE OF THE TWO:
 '''
-    #heuristics = "manhattan"
-    heuristics="straightline"
+#heuristics = "manhattan"
+heuristics="straightline"
 '''
 
 5. Make sure the file exists.

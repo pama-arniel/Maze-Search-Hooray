@@ -1,7 +1,7 @@
 ## Maze-Search-Hooray
 > An A* search implementation
 
-    1. HERE IS THE MAIN FUNCTION OF THE PYTHON A* SEARCH IMPLEMENTATION
+    1. __HERE IS THE MAIN FUNCTION OF THE PYTHON A* SEARCH IMPLEMENTATION__
         '''
         def main():
             filename = "bigSearch.lay.txt"

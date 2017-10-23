@@ -3,6 +3,7 @@
 
 1. HERE IS THE MAIN FUNCTION OF THE PYTHON A* SEARCH IMPLEMENTATION
 
+'''
 def main():
     filename = "bigSearch.lay.txt"
     #heuristics = "manhattan"
@@ -12,6 +13,7 @@ def main():
     print("The Maze:")
     maze.display(spaces=1)
     solve(maze, heuristics)
+'''
 
 2. TO RUN THE PROGRAM, SIMPLY ALTER THE THE "filename" and
 "heuristics" value:
@@ -23,6 +25,7 @@ NOTE: typing other string values would throw an Exception
 
 3. Here is why:
 
+'''
 def calcHeuristics(heuristics, maze, square, goal):
     .
     .
@@ -34,9 +37,12 @@ def calcHeuristics(heuristics, maze, square, goal):
     else:
         raise Exception("Incorrect heuristics")
     return 0
+'''
 
 4. TO RUN, YOU CAN ALSO SIMPLY COMMENT OUT ONE OF THE TWO:
+'''
     #heuristics = "manhattan"
     heuristics="straightline"
+'''
 
 5. Make sure the file exists.

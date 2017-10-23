@@ -1,5 +1,5 @@
 # Maze-Search-Hooray
-## An A* search implementation
+> An A* search implementation
 
 1. HERE IS THE MAIN FUNCTION OF THE PYTHON A* SEARCH IMPLEMENTATION
 
@@ -36,8 +36,7 @@ def calcHeuristics(heuristics, maze, square, goal):
     return 0
 
 4. TO RUN, YOU CAN ALSO SIMPLY COMMENT OUT ONE OF THE TWO:
-
-	#heuristics = "manhattan"
+    #heuristics = "manhattan"
     heuristics="straightline"
 
 5. Make sure the file exists.

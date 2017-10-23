@@ -1,7 +1,7 @@
 import sys
 
 def main():
-    filename = "bigSearch.lay.txt"
+    filename = "smallSearch.lay.txt"
     #heuristics = "manhattan"
     heuristics="straightline"
     maze = readmaze(filename)
@@ -192,7 +192,7 @@ def calcHeuristics(heuristics, maze, square, goal):
     elif(heuristics=="straightline"):
         return max(dx, dy)
     else:
-        print("Incorrect heuristics")
+        raise Exception("Incorrect heuristics")
     return 0
 
 def mincost(squares):
